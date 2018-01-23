@@ -1,0 +1,54 @@
+/**
+   upload btn css
+*/
+.btn-upload-input {
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    padding: 8px 16px 7px;
+}
+.btn-upload-input input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.btn-upload-input-title {
+    margin-left: 2px;
+}
+.btn-clear {
+    color: #333;
+    border-color: #ccc;
+    background-color: transparent;
+    padding: 8px 16px 7px;
+    margin: 0;
+}
+.btn-clear:focus,
+.btn-clear:hover,
+.btn-clear:active {
+    background-color: transparent;
+    border-color: #ccc;
+    color: #333;
+}
+
+#dragandrophandler{
+    min-height:400px;
+}
+
+.dragHint{
+    z-index: 2;
+    position: absolute;
+    bottom: 0px;
+    color: #92AAB0;
+    font-size: 20px;
+    right: 25px;
+    font-weight: 600;
+}
